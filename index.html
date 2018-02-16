@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW-Week-3-JavaScript</title>
+
+    <!-- LINKED CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- LINKED JAVASCRIPT -->
+    <script src="assets/hangman.js"></script>
+
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <div class="container">
+            <h1 class="jumbotron text-center">HANG MAN</h1>
+        </div>
+    </header>
+    <!-- CONTENT SECTION-->
+    <div class="container">
+        <div class="row">
+
+            <!-- COLUMN SECTION SIDE 1 -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x350"></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- COLUMN SECTION SIDE 2 -->
+            <div class="col-md-6">
+                <div class="row card">
+
+                    <!-- SUB-COLUMN SECTION 1 -->
+                    <div class="col-md-12 card-header text-center">
+                        <p><button id="start" onclick="myFunction()"><h2>PRESS TO START</h2></button></p>
+                    </div>
+
+                    <!-- SUB-COLUMN SECTION 2 -->
+                    <div class="col-md-12">
+                            <p><h3 class="text-center">WINS</h3></p>
+                    </div>
+
+                    <!-- SUB-COLUMN SECTION 3 -->
+                    <div class="col-md-12 text-center">
+                            <p><h4>CURRENT WORD</h4></p>
+                            <p><span id="computer-text">_ _ _ _ _ _ _ _ _ _ _</span></p>
+                    </div>
+                    <div class="container card-body text-center">
+                        <!-- SUB-COLUMN SECTION 4 -->
+                        <div class="col-md-12">
+                                <p>NUMBER OF GUESSES REMAINING</p>
+                                <p>VARIABLE REMAINING</p>                      
+                        </div>
+
+                        <!-- SUB-COLUMN SECTION 5 -->
+                     <div class="col-md-12">
+                                <p>LETTERS ALREADY GUESSED</p>
+                                <p>VARIABLE GUESSES</p>   
+
+                    <!-- SUB-COLUMN SECTION 6 -->
+                    <div class="col-md-12">
+                            <p>CURRENT LETTER GUESSED</p>
+                            <p><span id="guess-text"><strong>...Nothing.</strong></span></p> 
+
+
+
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
+
